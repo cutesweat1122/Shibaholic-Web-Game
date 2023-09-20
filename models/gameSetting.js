@@ -2,22 +2,22 @@ class GameSetting {
     static level1Setting = {
         "level": 1,
         "time": 10,
-        "targetNum": 10,
-        "enemyNum": 10
+        "targetNum": 15,
+        "enemyNum": 5
     };
 
     static level2Setting = {
         "level": 2,
         "time": 10,
-        "targetNum": 10,
-        "enemyNum": 20,
+        "targetNum": 15,
+        "enemyNum": 15,
     };
 
     static level3Setting = {
         "level": 3,
         "time": 10,
-        "targetNum": 10,
-        "enemyNum": 40,
+        "targetNum": 15,
+        "enemyNum": 35,
     };
 
     constructor(level) {
