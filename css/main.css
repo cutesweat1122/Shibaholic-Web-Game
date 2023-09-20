@@ -1,0 +1,58 @@
+/* for debugging */
+table {
+    border-collapse: collapse;
+}
+
+tr,
+td {
+    /* border: 3px solid red; */
+}
+
+body {
+    background-image: url('/images/shiba_background.png');
+    /* makes the background image cover the entire viewport */
+    background-size: 80%;
+    /* makes the background image fixed, doesn't scroll with the page content */
+    background-attachment: fixed;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    /* size */
+    width: 5em;
+    height: 1em;
+
+    /* Center the text vertically within the button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input_table {
+    /* border */
+    margin: auto auto;
+
+    /* horizontal alignment for td */
+    text-align: center;
+}
+
+#btnTd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nameInput {
+    /* size */
+    width: 20em;
+    height: 4em;
+}
+
+.page_title {
+    /* align */
+    text-align: center;
+    vertical-align: middle;
+}

@@ -1,0 +1,17 @@
+/* #score-label-container {
+    padding-top: 15px;
+}
+
+#score-container {
+    padding-top: 15px;
+} */
+
+body {
+    /* background-color: #EAE5C5 !important; */
+    background: linear-gradient(to bottom, #EAE5C5, #C5A86C) !important;
+}
+
+#playground {
+    /* border */
+    padding: 1em;
+}

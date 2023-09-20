@@ -1,0 +1,40 @@
+body {
+    background-image: url('/images/shiba_background.png');
+    /* makes the background image cover the entire viewport */
+    background-size: 80%;
+    /* makes the background image fixed, doesn't scroll with the page content */
+    background-attachment: fixed;
+}
+
+.level-btn {
+    /* size  */
+    width: 40vw;
+    height: 15vh;
+
+    /* font */
+    font-size: xx-large;
+
+    /* Center the text vertically within the button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#player-list {
+    /* border */
+    border-radius: 1em;
+    margin: 15px;
+    padding: 1em;
+
+    /* other color */
+    background-color: #C5A86C;
+
+    /* shadow */
+    box-shadow: 3px 5px 10px #363025;
+}
+
+#btn-list {
+    /* border */
+    margin-right: 10vw;
+    padding: 1em;
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: #EAE5C5 !important;
+    background-image: url('/images/shiba.png');
+    /* makes the background image cover the entire viewport */
+    background-size: 10%;
+    /* makes the background image fixed, doesn't scroll with the page content */
+    background-attachment: fixed;
+}
+
+.achievement-list {
+    /* other color */
+    background-color: #C5A86C;
+
+    /* shadow */
+    box-shadow: 3px 3px 5px #363025;
+
+    /* center the item in the div vertically */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-btn-container {
+    padding: 1em;
+}

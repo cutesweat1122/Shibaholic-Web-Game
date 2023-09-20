@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>main page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tzuhan Su">
+
+    <!-- js -->
+    <script src="js/main.js"></script>
+
+    <!-- models -->
+    <script src="models/player.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+
+<body>
+    <table class="table" id="input_table">
+        <thead>
+            <tr>
+                <th class="page_title" id="gameName" colspan="2">S &nbsp h &nbsp i &nbsp b &nbsp a &nbsp h &nbsp o &nbsp
+                    l &nbsp i &nbsp c</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="inputRow">
+                <td>
+                    <p class="item_title" style="display: inline;">Name:</p>
+                    <p class="text"> &#40; at most 10 letters &#41;</p>
+                    <input type="text" id="nameInput">
+                </td>
+            </tr>
+            <tr id="btnRow">
+                <td id="btnTd">
+                    <button onclick="jumpToMenuPage()">START</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
